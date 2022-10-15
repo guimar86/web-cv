@@ -1,0 +1,94 @@
+/*
+Color palette => https://colorhunt.co/palette/25316d5f6f9497d2ecfef5ac
+
+/**************tag selectors*/
+
+
+
+body {
+
+    margin: 0;
+    color: #0B0C10;
+    background-color: #DFF6FF;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+
+    color: #25316D;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+
+
+a :active,
+a:link,
+a {
+    color: #F7AA00;
+}
+
+a:visited,
+a:hover {
+    color: #235784;
+}
+
+hr {
+
+
+
+    width: 5%;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #0B0C10;
+    border-width: 5px;
+    height: 0;
+}
+
+.same-line {
+
+    display: inline;
+}
+
+
+
+.programmer {
+
+    text-decoration: underline;
+}
+
+.container {
+
+    width: 200px;
+    height: 200px;
+}
+
+/**************class selectors*/
+.top-container {
+
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {}
+
+.bottom-container {}
+
+
+.top-cloud {
+
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
