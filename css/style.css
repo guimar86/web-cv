@@ -9,10 +9,9 @@ body {
 
     margin: 0;
     color: #0B0C10;
-    background-color: #DFF6FF;
     text-align: center;
-    font-family: MerriArweather, serif;
-    font-size: 200%;
+    font-family: Merriweather, sans-serif;
+    font-size: 1.25rem;
 }
 
 h1 {
@@ -21,7 +20,6 @@ h1 {
     font-weight: bold;
     margin-top: 50px auto 0 auto;
     color: #66BFBF;
-    line-height: 2;
 }
 
 h3 {
@@ -30,7 +28,7 @@ h3 {
     margin: 0 auto;
     font-family: Montserrat, sans-serif;
     color: #11999E;
-    font-size: 2.3rem;
+    font-size: 1.9rem;
 }
 
 h2 {
@@ -94,8 +92,25 @@ hr {
 
 .middle-container {}
 
-.bottom-container {}
+.bottom-container {
 
+    color: #000;
+    background-color: #66BFBF;
+    margin-bottom: 0;
+    height: 200px;
+}
+
+.bottom-container a {
+
+    color: #11999E;
+    font-weight: bold;
+}
+
+.contact-me {
+
+    margin-bottom: 200px;
+    ;
+}
 
 .top-cloud {
 
@@ -109,4 +124,64 @@ hr {
     position: absolute;
     left: 450px;
     bottom: 300px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-image {
+
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-image-right {
+
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.skill-description {
+
+    clear: left;
+}
+
+.skill-description-right {
+
+    clear: right;
+}
+
+.profile-picture {
+
+    width: 20%;
+}
+
+.footer-link {
+
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: #11999E;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
 }
