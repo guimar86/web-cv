@@ -39,16 +39,17 @@ h2 {
     font-weight: normal;
 }
 
-a :active,
-a:link,
 a {
-    color: #F7AA00;
+
+    text-decoration: none;
+    color: #11999E;
 }
 
-a:visited,
 a:hover {
-    color: #235784;
+
+    color: #EAF6F6;
 }
+
 
 hr {
 
@@ -57,9 +58,19 @@ hr {
     width: 5%;
     border-style: none;
     border-top-style: dotted;
-    border-color: #0B0C10;
+    border-color: #EAF6F6;
     border-width: 5px;
     height: 0;
+}
+
+p {
+
+    line-height: 2;
+}
+
+li {
+
+    line-height: 2;
 }
 
 .same-line {
@@ -70,22 +81,18 @@ hr {
 
 
 .programmer {
-
     text-decoration: underline;
-
 }
 
 
 
 .container {
-
     width: 200px;
     height: 200px;
 }
 
 /**************class selectors*/
 .top-container {
-
     position: relative;
     padding-top: 100px;
 }
@@ -93,23 +100,20 @@ hr {
 .middle-container {}
 
 .bottom-container {
-
     color: #000;
     background-color: #66BFBF;
-    margin-bottom: 0;
-    height: 200px;
+    padding: 50px 0 20px;
 }
 
 .bottom-container a {
 
-    color: #11999E;
-    font-weight: bold;
+    margin: 10px 20px;
 }
 
 .contact-me {
 
-    margin-bottom: 200px;
-    ;
+    width: 40%;
+    margin: 0 auto;
 }
 
 .top-cloud {
@@ -130,7 +134,6 @@ hr {
     width: 50%;
     margin: 100px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .skill-image {
@@ -160,11 +163,28 @@ hr {
 .profile-picture {
 
     width: 20%;
+    margin-top: 100px;
 }
 
 .footer-link {
 
     text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+.intro {
+
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 
 .button {
